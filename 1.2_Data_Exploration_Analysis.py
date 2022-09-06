@@ -44,3 +44,7 @@ all_transformed_price.loc['2005':'2007'].plot(grid=True)
 # plt.show()
 
 
+# with open('data/all_transformed_price_1-2.pickle', 'wb') as f:
+#     pickle.dump(all_transformed_price, f)
+
+

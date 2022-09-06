@@ -88,12 +88,6 @@ df = first_table
 
 
 
-from transformers import pipeline
-
-classifier = pipeline("sentiment-analysis")  # 情感分析
-classifier("I've been waiting for a HuggingFace course my whole life.")
-
-
 
 
 
